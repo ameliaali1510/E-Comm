@@ -1,4 +1,4 @@
-import GameList from '../components/GameList';
+import GameList from './GameList';
 
 function Cart({ cartItems, removeFromCart }) {
     const total = cartItems.reduce((acc, game) => acc + game.Price, 0);
