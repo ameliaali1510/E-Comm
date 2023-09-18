@@ -9,7 +9,7 @@ import "../css/GameList.css";
 function App() {
 
   const [gameInfo, setGameInfo] = useState([]);
-
+  const [cart, setCart] = useState([]); // To store items in the cart
  
 
   useEffect(() => {
@@ -74,7 +74,10 @@ function App() {
 
   };
 
- 
+  const addToCart = (game) => {
+    console.log("Adding to cart:", game); // Debugging statement
+   setCart([...cart, game]);
+ };
 
   // Function to format a number as a price with £ symbol
 
@@ -103,11 +106,15 @@ function App() {
 
           <img src={game.thumbnail} alt={`Game ${index + 1}`} />
 
+          <button onClick={() => addToCart(game)}>Add To Cart</button>
+
         </div>
 
       ))}
 
     </div>
+
+    
 
   );
 
