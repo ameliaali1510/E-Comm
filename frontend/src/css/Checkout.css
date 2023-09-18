@@ -1,0 +1,67 @@
+
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 4px solid #010101;
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+.modifyCart {
+    background-color: #f5f5f5;
+    border: 1px solid #d1d1d1;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.modifyCart:hover {
+    background-color: #e5e5e5;
+}
+
+.supportLinks, .policies {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.supportLinks a, .policies a {
+    margin: 0 5px;
+    color: #080808;
+    text-decoration: none;
+}
+
+.supportLinks a:hover, .policies a:hover {
+    text-decoration: underline;
+}
+
+  
