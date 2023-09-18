@@ -1,0 +1,94 @@
+body {
+    background: linear-gradient(to right, rgb(252, 2, 114), rgb(3, 249, 249));
+}
+
+html, body, #root, .App {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.App {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    padding:0;
+}
+* {
+    box-sizing: border-box;
+}
+.App > div:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease;
+}
+.App > div {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    }
+    
+.App {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.App > h1 {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    clear: both;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+}
+
+
+.highlight {
+    font-style: italic;
+    background: linear-gradient(to right, rgb(249, 122, 48), yellow);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline; 
+}
+
+
+/* Styles for each game information container */
+
+
+.App {
+    padding-top: 60px; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+        gap: 10px; /* Spacing between each grid item */
+}
+
+.App > div {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    place-items: center; /* This will center the items both vertically and horizontally */
+}
+
+/* Styling the game title inside each game information container */
+.App > div > h1 {
+    font-size: 24px;
+    margin: 0;
+    margin-right: 20px;
+
+}
+
+/* Styling the price inside each game information container */
+.App > div > p {
+    margin: 0;
+    margin-right: 20px;
+    
+}
+
+/* Styling the image inside each game information container */
+.App > div > img {
+    height: 100px; 
+    
+}
+
