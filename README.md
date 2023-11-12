@@ -1,3 +1,7 @@
+E-commerce App Bootcamp Project
+
+First eComm app, this is a Full MERN stack project using Api's to create a video games store.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
