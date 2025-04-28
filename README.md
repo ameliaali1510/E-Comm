@@ -1,6 +1,11 @@
-E-commerce App Bootcamp Project
 
-First eComm app, this is a Full MERN stack project using Api's to create a video games store.
+Video Games E-commerce fullstack App
+
+As part of my project during the coding bootcamp, my team and I developed a full-stack e-commerce web application. The goal was to simulate a real-world development environment by designing and building a complete, user-focused platform from the ground up.
+
+The app allows users to browse products, add items to a shopping cart, register and log in to their accounts, and complete purchases. We implemented full CRUD functionality for managing products and user data, and connected the front-end and back-end through a secure API. 
+
+We prioritised creating a clean, intuitive user interface with responsive design to deliver a seamless shopping experience across devices. Building this project allowed me to deepen my skills in JavaScript, React, Node.js, Express, and database management, while also strengthening my abilities to collaborate effectively within an agile team.
 
 # Getting Started with Create React App
 
